@@ -1,0 +1,24 @@
+.passwd-reveal {
+  padding: 16px 32px;
+  height: 86px;
+  font-size: var(--font-2xl);
+  font-weight: var(--weight-bold);
+  background-color: var(--surface-dark-2);
+  border-radius: var(--radius-base);
+}
+
+.passwd-reveal button {
+  background-color: transparent;
+  border: none;
+  aspect-ratio: 1;
+  width: 42px;
+  cursor: pointer;
+}
+
+.passwd-reveal button svg {
+  stroke: var(--surface-light);
+}
+
+.passwd-reveal button:hover svg {
+  stroke: var(--surface-dark-3);
+}

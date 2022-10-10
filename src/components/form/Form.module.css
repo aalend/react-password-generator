@@ -1,0 +1,20 @@
+.form {
+  --flow: 1.25em;
+}
+
+.form > * {
+  padding: 24px;
+  background-color: var(--surface-dark-2);
+  border-radius: var(--radius-base);
+}
+
+.form button[type='submit'] {
+  padding-block: 16px;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: var(--weight-bold);
+  background-color: var(--accent);
+  border: 0;
+  border-radius: var(--radius-base);
+  cursor: pointer;
+}

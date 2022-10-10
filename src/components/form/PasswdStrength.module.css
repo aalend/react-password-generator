@@ -1,0 +1,50 @@
+.strength-bars {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  background-color: var(--surface-dark);
+  padding: 24px 32px;
+  border-radius: var(--radius-base);
+}
+
+.strength-bars .bars {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.strength-bars .bars {
+  display: flex;
+  gap: 1rem;
+}
+
+.strength-bars .bars span {
+  width: 12px;
+  height: 42px;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+.security-level-1 span:nth-of-type(1) {
+  background-color: var(--error);
+  border-color: var(--error);
+}
+
+.security-level-2 span:nth-child(-n + 2) {
+  background-color: var(--warn);
+  border-color: var(--warn);
+}
+
+.security-level-3 span:nth-child(-n + 3) {
+  background-color: var(--good);
+  border-color: var(--good);
+}
+
+.security-level-4 span:nth-child(-n + 4) {
+  background-color: var(--great);
+  border-color: var(--great);
+}

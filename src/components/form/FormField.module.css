@@ -1,0 +1,12 @@
+label {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+input[type='checkbox'] {
+  font-weight: 2rem;
+  height: 16px;
+  accent-color: var(--accent);
+  aspect-ratio: 1;
+  cursor: pointer;
+}

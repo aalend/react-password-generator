@@ -1,0 +1,36 @@
+.site-head {
+  padding-block: 64px;
+  text-align: center;
+}
+
+.clipboard-message {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: var(--accent);
+  color: var(--surface-dark);
+  border-radius: var(--radius-base);
+  padding: 16px 32px;
+  font-weight: var(--weight-bold);
+  display: none;
+  opacity: 0;
+}
+
+.clipboard-message-reveal {
+  display: block;
+  animation: fadeOut 5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
